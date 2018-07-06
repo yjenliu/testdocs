@@ -8,7 +8,7 @@ public class factorial {
 	public static int factorial (int number)
 	{
 		if (number == 0) {
-			return 0;
+			return 2;
 		} else {
 			return number * factorial(number - 1);
 		}
